@@ -1,0 +1,18 @@
+Package: fars
+Title: Handle FARS data
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com",
+                  role = c("aut", "cre"))
+Description: Handles the FARS data as per the Coursera course Building R Packages. This package only deals with FARS and contains some functions to manipulate it.
+Depends: R (>= 3.3.2)
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat
+Imports:
+    dplyr,
+    magrittr,
+    maps,
+    readr,
+    tidyr
